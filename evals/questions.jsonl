@@ -1,0 +1,6 @@
+{"vendor_id":"V-1","expected_decision":"ready_for_human"}
+{"vendor_id":"V-2","expected_decision":"manual_review"}
+{"vendor_id":"V-3","expected_decision":"blocked_incomplete"}
+{"vendor_id":"V-4","expected_decision":"blocked_incomplete"}
+{"vendor_id":"V-5","expected_decision":"blocked_sanctions"}
+{"vendor_id":"V-6","expected_decision":"blocked_incomplete"}

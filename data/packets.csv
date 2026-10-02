@@ -1,0 +1,7 @@
+vendor_id,w9,insurance_expiry,bank_change,sanctions_flag
+V-1,yes,2027-06-01,no,no
+V-2,yes,2027-06-01,yes,no
+V-3,no,2027-06-01,no,no
+V-4,yes,2025-01-01,no,no
+V-5,yes,2027-06-01,no,yes
+V-6,no,2027-06-01,yes,no
