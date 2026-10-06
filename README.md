@@ -73,3 +73,11 @@ python -m vendor V-2
 - [Readout](docs/03-readout.md)
 
 The pilot does not claim fraud found. It claims a bank-detail change cannot leave this tool as an acceptance.
+
+## Documentation checks
+
+Project architecture, interview guides, and local source links are checked automatically on pushes and pull requests. Run the same check locally:
+
+```bash
+python3 .github/scripts/validate_project_docs.py
+```
