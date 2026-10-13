@@ -1,5 +1,12 @@
 # Northline vendor review
 
+## Overview
+
+A simulated forward deployed engagement for Northline Procurement, a fictional procurement team whose new vendor packets sat in a shared inbox. The tool reviews each packet and returns ready_for_human, manual_review, blocked_incomplete or blocked_sanctions: a missing W-9 or expired insurance blocks a packet, a bank-detail change goes to manual review, and a sanctions flag has no override. The code rejects the word approved, so a person always makes the final acceptance.
+
+- **Built with:** Python, pytest, Docker, GitHub Actions
+- **Scope:** Simulated engagement with a fictional customer; it claims no fraud found, only that a bank-detail change cannot leave the tool as an acceptance.
+
 <!-- project-guide:start -->
 ## Project guide
 
